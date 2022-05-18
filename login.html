@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>inicio</title>
+    <title>Vídeo de Web I HTML e CSS</title>
     <link rel="stylesheet" href="./css/estilo.css" />
   </head>
   <body>
@@ -25,8 +25,38 @@
         </ul>
       </nav>
     </header>
-    <main>
-
+    <main class="content">
+      <section class="auth">
+        <h1>Login</h1>
+        <form action="cadastrar.html" method="post">
+          <label for="email">E-mail</label>
+          <div>
+            <img src="./img/email.svg" alt="Email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="E-mail"
+            />
+          </div>
+          <label for="senha">Senha</label>
+          <div>
+            <img src="./img/key.svg" alt="Key" />
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              required
+              placeholder="Senha"
+            />
+          </div>
+          <p>
+            Não possui conta? <a href="cadastrar.html">Cadastre-se</a>
+            <button type="submit">Entrar</button>
+          </p>
+        </form>
+      </section>
     </main>
     <footer>
       <div class="content">
