@@ -159,3 +159,21 @@ main > section.auth > form > p > button {
   width: 5rem;
   margin-left: 0.5rem;
 }
+
+main > table,
+main > table tr th,
+main > table tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+main > table{
+    margin-bottom: 1rem;
+}
+
+
+
+
